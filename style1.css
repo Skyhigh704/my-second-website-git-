@@ -1,0 +1,11 @@
+.box1 {
+    border: 10px solid green;
+    padding: 5px 5px;
+}
+
+p {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
