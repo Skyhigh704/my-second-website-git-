@@ -1,51 +1,88 @@
-            body {
-                font-family: 'Poppins', sans-serif;
-                margin: 0;
-            }
-            
-            h1 {
-                font-size: 50px;
-            }
-            
-            .orange-color {
-                color: orange;
-            }
-            
-            .box1 {
-                display: flex;
-                background-image: url(images/top-banner.png);
-                background-repeat: no-repeat;
-            }
-            
-            .box2 {
-                display: flex;
-                background-image: url(images/dream-bg.png);
-                background-repeat: no-repeat;
-                margin-top: 150px;
-                background-position-x: right;
-                background-position-y: bottom;
-            }
-            
-            .half-width {
-                width: 50%;
-                padding-left: 6%;
-            }
-            
-            .half-width img {
-                width: 80%;
-            }
-            
-            .half-width a {
-                text-decoration: none;
-                color: rgba(66, 61, 61, 0.705);
-                font-weight: 800;
-                background-image: linear-gradient(red, tomato, rgb(243, 157, 86), rgb(241, 201, 126));
-                padding: 10px 40px;
-                border-radius: 5px;
-            }
-            
-            .half-width p {
-                color: black;
-                text-align: justify;
-                margin-right: 20px;
-            }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+        }
+        
+        h1 {
+            font-size: 50px;
+        }
+        
+        h2 {
+            font-size: 40px;
+        }
+        
+        .orange-color {
+            color: orange;
+        }
+        
+        section {
+            margin-bottom: 150px;
+        }
+        
+        .box1 {
+            background-image: url(images/top-banner.png);
+            background-repeat: no-repeat;
+        }
+        
+        .box2 {
+            background-image: url(images/dream-bg.png);
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: bottom;
+        }
+        
+        .half-width {
+            width: 50%;
+            padding-left: 6%;
+        }
+        
+        .half-width img {
+            width: 80%;
+        }
+        
+        .half-width a {
+            text-decoration: none;
+            color: rgba(66, 61, 61, 0.705);
+            font-weight: 800;
+            background-image: linear-gradient(red, tomato, rgb(243, 157, 86), rgb(241, 201, 126));
+            padding: 10px 40px;
+            border-radius: 5px;
+        }
+        
+        .half-width p {
+            color: black;
+            text-align: justify;
+            margin-right: 20px;
+        }
+        
+        .flexible_container {
+            display: flex;
+        }
+        
+        .experience-area {
+            background-image: url(images/exp-bg.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+        
+        .box-design {
+            box-shadow: 10px 10px 40px gray;
+            padding: 50px;
+            margin: 50px;
+        }
+        
+        #box1 {
+            border-left: 7px solid;
+            border-image: linear-gradient(tomato, orange);
+            border-image-slice: 1;
+        }
+        
+        #box2 {
+            border-left: 7px solid;
+            border-image: linear-gradient(blue, cyan);
+            border-image-slice: 1;
+        }
+        
+        footer p {
+            text-align: center;
+        }
